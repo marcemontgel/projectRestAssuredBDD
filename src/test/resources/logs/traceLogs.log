@@ -1,0 +1,450 @@
+22:01:53.085 INFO  AUTOMATION - before: Obtener todos los Productos
+22:01:53.087 INFO  AUTOMATION - Creando Request
+22:01:53.493 DEBUG AUTOMATION - Guardar el request en el Request Provider
+22:01:53.495 INFO  AUTOMATION - (GET) Get All Products
+22:01:54.416 TRACE AUTOMATION - requestInfo body is null
+22:01:54.458 TRACE AUTOMATION - requestInfo body is NOT null
+22:01:54.458 DEBUG AUTOMATION - 
+=============================================
+Request
+=============================================
+(GET) 	 https://dummyjson.com/auth/products
+	Accept: */*
+	Content-Type: application/json
+
+
+=============================================
+Response
+=============================================
+Status Code: 401 	 Response Time: 679ms
+Response Headers:
+	Date: Wed, 24 Sep 2025 03:01:54 GMT
+	Content-Type: application/json; charset=utf-8
+	Content-Length: 38
+	Connection: keep-alive
+	Server: cloudflare
+	x-ratelimit-limit: 100
+	x-ratelimit-remaining: 99
+	x-ratelimit-reset: 1758682921
+	x-dns-prefetch-control: off
+	x-frame-options: SAMEORIGIN
+	strict-transport-security: max-age=15552000; includeSubDomains
+	x-download-options: noopen
+	x-content-type-options: nosniff
+	x-xss-protection: 1; mode=block
+	access-control-allow-origin: *
+	x-powered-by: Cats on Keyboards
+	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+	etag: W/"26-TtDLQtfPAa5hR/eRnAb5xDEDYiA"
+	vary: Accept-Encoding
+	cf-cache-status: DYNAMIC
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ImM%2FpkqsVVhUsti4Gkmg4SCC%2Bm6dsrLDnjllu14Uk%2FCGNrq8N%2FwUmJ3CLdRz7nstXssMCfRhyJ1dQH7TpqCq5jpiIYm22aZQEh%2F5DBs%3D"}]}
+	Set-Cookie: accessToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+	Set-Cookie: refreshToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+	CF-RAY: 983f0a3718ae7473-MIA
+
+Response Body:
+{
+    "message": "Access Token is required"
+}
+
+
+22:01:54.461 INFO  AUTOMATION - Verificando el estatus code
+22:01:54.469 INFO  AUTOMATION - after: Obtener todos los Productos, status: PASSED
+22:01:54.477 INFO  AUTOMATION - before: Obtener un solo Producto
+22:01:54.477 INFO  AUTOMATION - Creando Request
+22:01:54.478 DEBUG AUTOMATION - Guardar el request en el Request Provider
+22:01:54.478 INFO  AUTOMATION - (GET) Get Single Product
+22:01:54.718 TRACE AUTOMATION - requestInfo body is null
+22:01:54.720 TRACE AUTOMATION - requestInfo body is NOT null
+22:01:54.720 DEBUG AUTOMATION - 
+=============================================
+Request
+=============================================
+(GET) 	 https://dummyjson.com/auth/products/2
+	Accept: */*
+	Content-Type: application/json
+
+
+=============================================
+Response
+=============================================
+Status Code: 401 	 Response Time: 223ms
+Response Headers:
+	Date: Wed, 24 Sep 2025 03:01:54 GMT
+	Content-Type: application/json; charset=utf-8
+	Content-Length: 38
+	Connection: keep-alive
+	Server: cloudflare
+	x-ratelimit-limit: 100
+	x-ratelimit-remaining: 99
+	x-ratelimit-reset: 1758682921
+	x-dns-prefetch-control: off
+	x-frame-options: SAMEORIGIN
+	strict-transport-security: max-age=15552000; includeSubDomains
+	x-download-options: noopen
+	x-content-type-options: nosniff
+	x-xss-protection: 1; mode=block
+	access-control-allow-origin: *
+	x-powered-by: Cats on Keyboards
+	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+	etag: W/"26-TtDLQtfPAa5hR/eRnAb5xDEDYiA"
+	vary: Accept-Encoding
+	cf-cache-status: DYNAMIC
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Zk6RICVHmOU33%2FW8sQQEgRXAK6HUKgfJ9l4NC86XZFiUqsQzMlyZFhUWVSz8Ru%2Fg%2FUtY03nboDS%2Bn9EScpJ8kAlDMoT6CYaZEho5HZQ%3D"}]}
+	Set-Cookie: accessToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+	Set-Cookie: refreshToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+	CF-RAY: 983f0a392eced67d-MIA
+
+Response Body:
+{
+    "message": "Access Token is required"
+}
+
+
+22:01:54.721 INFO  AUTOMATION - Verificando el estatus code
+22:01:54.722 INFO  AUTOMATION - after: Obtener un solo Producto, status: PASSED
+22:01:54.728 INFO  AUTOMATION - before: Eliminar Producto
+22:01:54.729 INFO  AUTOMATION - Creando Request
+22:01:54.730 DEBUG AUTOMATION - Guardar el request en el Request Provider
+22:01:54.731 INFO  AUTOMATION - (DELETE) Delete Product
+22:01:55.016 TRACE AUTOMATION - requestInfo body is null
+22:01:55.018 TRACE AUTOMATION - requestInfo body is NOT null
+22:01:55.018 DEBUG AUTOMATION - 
+=============================================
+Request
+=============================================
+(DELETE) 	 https://dummyjson.com/auth/products/2
+	Accept: */*
+	Content-Type: application/json
+
+
+=============================================
+Response
+=============================================
+Status Code: 401 	 Response Time: 276ms
+Response Headers:
+	Date: Wed, 24 Sep 2025 03:01:55 GMT
+	Content-Type: application/json; charset=utf-8
+	Content-Length: 38
+	Connection: keep-alive
+	Server: cloudflare
+	x-ratelimit-limit: 100
+	x-ratelimit-remaining: 99
+	x-ratelimit-reset: 1758682923
+	x-dns-prefetch-control: off
+	x-frame-options: SAMEORIGIN
+	strict-transport-security: max-age=15552000; includeSubDomains
+	x-download-options: noopen
+	x-content-type-options: nosniff
+	x-xss-protection: 1; mode=block
+	access-control-allow-origin: *
+	x-powered-by: Cats on Keyboards
+	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+	etag: W/"26-TtDLQtfPAa5hR/eRnAb5xDEDYiA"
+	vary: Accept-Encoding
+	cf-cache-status: DYNAMIC
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=DuBoj78Kxly%2FlFamWllAI3p%2Fw%2BwUxHCA28jGVbJhdd4kv0dtqr6ybFzpBQVU47gcvUfzPffO%2Bv%2Bc5mhC%2BOW%2B09qpV6yesV3hWl8t8Yk%3D"}]}
+	Set-Cookie: accessToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+	Set-Cookie: refreshToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+	CF-RAY: 983f0a3afe127486-MIA
+
+Response Body:
+{
+    "message": "Access Token is required"
+}
+
+
+22:01:55.019 INFO  AUTOMATION - Verificando el estatus code
+22:01:55.020 INFO  AUTOMATION - after: Eliminar Producto, status: PASSED
+22:01:55.028 INFO  AUTOMATION - before: Ordenar Productos
+22:01:55.028 INFO  AUTOMATION - Creando Request
+22:01:55.031 DEBUG AUTOMATION - Guardar el request en el Request Provider
+22:01:55.032 INFO  AUTOMATION - (GET) Sort Products
+22:01:55.266 TRACE AUTOMATION - requestInfo body is null
+22:01:55.268 TRACE AUTOMATION - requestInfo body is NOT null
+22:01:55.268 DEBUG AUTOMATION - 
+=============================================
+Request
+=============================================
+(GET) 	 https://dummyjson.com/auth/products?order=asc&sortBy=price
+	Accept: */*
+	Content-Type: application/json
+
+
+=============================================
+Response
+=============================================
+Status Code: 401 	 Response Time: 224ms
+Response Headers:
+	Date: Wed, 24 Sep 2025 03:01:55 GMT
+	Content-Type: application/json; charset=utf-8
+	Content-Length: 38
+	Connection: keep-alive
+	Server: cloudflare
+	x-ratelimit-limit: 100
+	x-ratelimit-remaining: 99
+	x-ratelimit-reset: 1758682917
+	x-dns-prefetch-control: off
+	x-frame-options: SAMEORIGIN
+	strict-transport-security: max-age=15552000; includeSubDomains
+	x-download-options: noopen
+	x-content-type-options: nosniff
+	x-xss-protection: 1; mode=block
+	access-control-allow-origin: *
+	x-powered-by: Cats on Keyboards
+	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+	etag: W/"26-TtDLQtfPAa5hR/eRnAb5xDEDYiA"
+	vary: Accept-Encoding
+	cf-cache-status: DYNAMIC
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4ULPgsQy2CRKOW96nlAoeX7jG6JlbijV0GHAtTISO%2FYYuDy0TWqK4kmSYwQIQMMTdfD1HLiPNzn37Yzsf%2Fr2p3c7UqtTMLkmo2m%2FShE%3D"}]}
+	Set-Cookie: accessToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+	Set-Cookie: refreshToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+	CF-RAY: 983f0a3c99b4dad3-MIA
+
+Response Body:
+{
+    "message": "Access Token is required"
+}
+
+
+22:01:55.268 INFO  AUTOMATION - Verificando el estatus code
+22:01:55.269 INFO  AUTOMATION - after: Ordenar Productos, status: PASSED
+22:01:55.274 INFO  AUTOMATION - before: Buscar Productos
+22:01:55.275 INFO  AUTOMATION - Creando Request
+22:01:55.276 DEBUG AUTOMATION - Guardar el request en el Request Provider
+22:01:55.277 INFO  AUTOMATION - (GET) Search Products
+22:01:55.512 TRACE AUTOMATION - requestInfo body is null
+22:01:55.512 TRACE AUTOMATION - requestInfo body is NOT null
+22:01:55.513 DEBUG AUTOMATION - 
+=============================================
+Request
+=============================================
+(GET) 	 https://dummyjson.com/auth/products/search?q=kitchen
+	Accept: */*
+	Content-Type: application/json
+
+
+=============================================
+Response
+=============================================
+Status Code: 401 	 Response Time: 229ms
+Response Headers:
+	Date: Wed, 24 Sep 2025 03:01:55 GMT
+	Content-Type: application/json; charset=utf-8
+	Content-Length: 38
+	Connection: keep-alive
+	Server: cloudflare
+	x-ratelimit-limit: 100
+	x-ratelimit-remaining: 99
+	x-ratelimit-reset: 1758682920
+	x-dns-prefetch-control: off
+	x-frame-options: SAMEORIGIN
+	strict-transport-security: max-age=15552000; includeSubDomains
+	x-download-options: noopen
+	x-content-type-options: nosniff
+	x-xss-protection: 1; mode=block
+	access-control-allow-origin: *
+	x-powered-by: Cats on Keyboards
+	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+	etag: W/"26-TtDLQtfPAa5hR/eRnAb5xDEDYiA"
+	vary: Accept-Encoding
+	cf-cache-status: DYNAMIC
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=2TnfkFHgKD%2Bigknwncoh6a0cNmYWmIPim5XNsg%2FRqMt0fb30CYfYwAYUjPVw6BIGIjb7vKT2tJ1Nj1mwyEwA6t4ZotJoB6KRaSbekCg%3D"}]}
+	Set-Cookie: accessToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+	Set-Cookie: refreshToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+	CF-RAY: 983f0a3e1be4571f-MIA
+
+Response Body:
+{
+    "message": "Access Token is required"
+}
+
+
+22:01:55.513 INFO  AUTOMATION - Verificando el estatus code
+22:01:55.514 INFO  AUTOMATION - after: Buscar Productos, status: PASSED
+22:01:55.520 INFO  AUTOMATION - before: Crear Producto
+22:01:55.520 INFO  AUTOMATION - Creando Request
+22:01:55.524 DEBUG AUTOMATION - Guardar el request en el Request Provider
+22:01:55.630 INFO  AUTOMATION - (POST) Create Product
+22:01:56.113 TRACE AUTOMATION - requestInfo body is NOT null
+22:01:56.113 TRACE AUTOMATION - requestInfo body is NOT null
+22:01:56.115 DEBUG AUTOMATION - 
+=============================================
+Request
+=============================================
+(POST) 	 https://dummyjson.com/auth/products/add
+Request Headers:
+	Accept: */*
+	Content-Type: application/json
+
+Request Body:
+{
+    "title": "Sesame Seeds",
+    "description": "Vero totam mollitia earum veritatis voluptatem doloremque ad accusantium reprehenderit expedita.",
+    "category": "Tresom",
+    "price": 3391.6,
+    "rating": 0.95,
+    "stock": 46
+}
+
+=============================================
+Response
+=============================================
+Status Code: 401 	 Response Time: 261ms
+Response Headers:
+	Date: Wed, 24 Sep 2025 03:01:56 GMT
+	Content-Type: application/json; charset=utf-8
+	Content-Length: 38
+	Connection: keep-alive
+	Server: cloudflare
+	x-ratelimit-limit: 100
+	x-ratelimit-remaining: 98
+	x-ratelimit-reset: 1758682920
+	x-dns-prefetch-control: off
+	x-frame-options: SAMEORIGIN
+	strict-transport-security: max-age=15552000; includeSubDomains
+	x-download-options: noopen
+	x-content-type-options: nosniff
+	x-xss-protection: 1; mode=block
+	access-control-allow-origin: *
+	x-powered-by: Cats on Keyboards
+	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+	etag: W/"26-TtDLQtfPAa5hR/eRnAb5xDEDYiA"
+	vary: Accept-Encoding
+	cf-cache-status: DYNAMIC
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=0yrAz9uToRjK5yIzIICAkXa%2Fj6rJo9Na%2BiZbxJKEBZhHKb9n3ypHUs7xeh1c8gFAKlqp4njNWFZ%2BmeBXh01rREc1UtZ1uv6qID4OUdk%3D"}]}
+	Set-Cookie: accessToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+	Set-Cookie: refreshToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+	CF-RAY: 983f0a41bf77a51b-MIA
+
+Response Body:
+{
+    "message": "Access Token is required"
+}
+
+
+22:01:56.115 INFO  AUTOMATION - Verificando el estatus code
+22:01:56.116 INFO  AUTOMATION - after: Crear Producto, status: PASSED
+22:01:56.122 INFO  AUTOMATION - before: Actualizar Producto
+22:01:56.124 INFO  AUTOMATION - Creando Request
+22:01:56.126 DEBUG AUTOMATION - Guardar el request en el Request Provider
+22:01:56.127 INFO  AUTOMATION - (PUT) Update Product
+22:01:56.361 TRACE AUTOMATION - requestInfo body is NOT null
+22:01:56.362 TRACE AUTOMATION - requestInfo body is NOT null
+22:01:56.362 DEBUG AUTOMATION - 
+=============================================
+Request
+=============================================
+(PUT) 	 https://dummyjson.com/auth/products/2
+Request Headers:
+	Accept: */*
+	Content-Type: application/json
+
+Request Body:
+{
+    "title": "Oregano",
+    "description": "Odit possimus illo molestias natus velit quae consectetur cupiditate libero quas omnis nesciunt.",
+    "category": "Latlux",
+    "price": 9589.75,
+    "rating": 2.72,
+    "stock": 99
+}
+
+=============================================
+Response
+=============================================
+Status Code: 401 	 Response Time: 223ms
+Response Headers:
+	Date: Wed, 24 Sep 2025 03:01:56 GMT
+	Content-Type: application/json; charset=utf-8
+	Content-Length: 38
+	Connection: keep-alive
+	Server: cloudflare
+	x-ratelimit-limit: 100
+	x-ratelimit-remaining: 97
+	x-ratelimit-reset: 1758682920
+	x-dns-prefetch-control: off
+	x-frame-options: SAMEORIGIN
+	strict-transport-security: max-age=15552000; includeSubDomains
+	x-download-options: noopen
+	x-content-type-options: nosniff
+	x-xss-protection: 1; mode=block
+	access-control-allow-origin: *
+	x-powered-by: Cats on Keyboards
+	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+	etag: W/"26-TtDLQtfPAa5hR/eRnAb5xDEDYiA"
+	vary: Accept-Encoding
+	cf-cache-status: DYNAMIC
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=kUy2uqiWZwh1N3XJMT%2BVZH3v0NKJnUey03XalAtAsaSk3v%2BfewaHt%2Fd4%2Fz5%2BVQ%2F3fld7e%2FlwFgeGoH4t44PrrMxhQbYvevRgZfS5ZOU%3D"}]}
+	Set-Cookie: accessToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+	Set-Cookie: refreshToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+	CF-RAY: 983f0a436a101bc6-MIA
+
+Response Body:
+{
+    "message": "Access Token is required"
+}
+
+
+22:01:56.363 INFO  AUTOMATION - Verificando el estatus code
+22:01:56.364 INFO  AUTOMATION - after: Actualizar Producto, status: PASSED
+22:01:56.370 INFO  AUTOMATION - before: Actualizar Parcialmente un Producto
+22:01:56.371 INFO  AUTOMATION - Creando Request
+22:01:56.374 DEBUG AUTOMATION - Guardar el request en el Request Provider
+22:01:56.379 INFO  AUTOMATION - (PATCH) Partial Update Product
+22:01:56.617 TRACE AUTOMATION - requestInfo body is NOT null
+22:01:56.619 TRACE AUTOMATION - requestInfo body is NOT null
+22:01:56.619 DEBUG AUTOMATION - 
+=============================================
+Request
+=============================================
+(PATCH) 	 https://dummyjson.com/auth/products/2
+Request Headers:
+	Accept: */*
+	Content-Type: application/json
+
+Request Body:
+{
+    "title": "Dave McFly",
+    "description": "Radiation suit? Of course. 'Cause of all the fallout from the atomic wars."
+}
+
+=============================================
+Response
+=============================================
+Status Code: 401 	 Response Time: 225ms
+Response Headers:
+	Date: Wed, 24 Sep 2025 03:01:56 GMT
+	Content-Type: application/json; charset=utf-8
+	Content-Length: 38
+	Connection: keep-alive
+	Server: cloudflare
+	x-ratelimit-limit: 100
+	x-ratelimit-remaining: 98
+	x-ratelimit-reset: 1758682921
+	x-dns-prefetch-control: off
+	x-frame-options: SAMEORIGIN
+	strict-transport-security: max-age=15552000; includeSubDomains
+	x-download-options: noopen
+	x-content-type-options: nosniff
+	x-xss-protection: 1; mode=block
+	access-control-allow-origin: *
+	x-powered-by: Cats on Keyboards
+	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+	etag: W/"26-TtDLQtfPAa5hR/eRnAb5xDEDYiA"
+	vary: Accept-Encoding
+	cf-cache-status: DYNAMIC
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=WuXKbBte3%2BPB3kzEnppXMmEnD0rbUkOUmN%2FtQTAKd%2ByTB3vjaOiKc15mWU8gQV1yAJO1AXdzcbojfdKc6Ql04ZjEFWVf9iOAluA18ak%3D"}]}
+	Set-Cookie: accessToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+	Set-Cookie: refreshToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+	CF-RAY: 983f0a4509af3015-MIA
+
+Response Body:
+{
+    "message": "Access Token is required"
+}
+
+
+22:01:56.622 INFO  AUTOMATION - Verificando el estatus code
+22:01:56.623 INFO  AUTOMATION - after: Actualizar Parcialmente un Producto, status: PASSED

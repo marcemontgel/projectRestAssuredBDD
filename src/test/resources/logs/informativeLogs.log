@@ -1,0 +1,40 @@
+22:01:53.085 INFO  AUTOMATION - before: Obtener todos los Productos
+22:01:53.087 INFO  AUTOMATION - Creando Request
+22:01:53.495 INFO  AUTOMATION - (GET) Get All Products
+22:01:54.461 INFO  AUTOMATION - Verificando el estatus code
+22:01:54.469 INFO  AUTOMATION - after: Obtener todos los Productos, status: PASSED
+22:01:54.477 INFO  AUTOMATION - before: Obtener un solo Producto
+22:01:54.477 INFO  AUTOMATION - Creando Request
+22:01:54.478 INFO  AUTOMATION - (GET) Get Single Product
+22:01:54.721 INFO  AUTOMATION - Verificando el estatus code
+22:01:54.722 INFO  AUTOMATION - after: Obtener un solo Producto, status: PASSED
+22:01:54.728 INFO  AUTOMATION - before: Eliminar Producto
+22:01:54.729 INFO  AUTOMATION - Creando Request
+22:01:54.731 INFO  AUTOMATION - (DELETE) Delete Product
+22:01:55.019 INFO  AUTOMATION - Verificando el estatus code
+22:01:55.020 INFO  AUTOMATION - after: Eliminar Producto, status: PASSED
+22:01:55.028 INFO  AUTOMATION - before: Ordenar Productos
+22:01:55.028 INFO  AUTOMATION - Creando Request
+22:01:55.032 INFO  AUTOMATION - (GET) Sort Products
+22:01:55.268 INFO  AUTOMATION - Verificando el estatus code
+22:01:55.269 INFO  AUTOMATION - after: Ordenar Productos, status: PASSED
+22:01:55.274 INFO  AUTOMATION - before: Buscar Productos
+22:01:55.275 INFO  AUTOMATION - Creando Request
+22:01:55.277 INFO  AUTOMATION - (GET) Search Products
+22:01:55.513 INFO  AUTOMATION - Verificando el estatus code
+22:01:55.514 INFO  AUTOMATION - after: Buscar Productos, status: PASSED
+22:01:55.520 INFO  AUTOMATION - before: Crear Producto
+22:01:55.520 INFO  AUTOMATION - Creando Request
+22:01:55.630 INFO  AUTOMATION - (POST) Create Product
+22:01:56.115 INFO  AUTOMATION - Verificando el estatus code
+22:01:56.116 INFO  AUTOMATION - after: Crear Producto, status: PASSED
+22:01:56.122 INFO  AUTOMATION - before: Actualizar Producto
+22:01:56.124 INFO  AUTOMATION - Creando Request
+22:01:56.127 INFO  AUTOMATION - (PUT) Update Product
+22:01:56.363 INFO  AUTOMATION - Verificando el estatus code
+22:01:56.364 INFO  AUTOMATION - after: Actualizar Producto, status: PASSED
+22:01:56.370 INFO  AUTOMATION - before: Actualizar Parcialmente un Producto
+22:01:56.371 INFO  AUTOMATION - Creando Request
+22:01:56.379 INFO  AUTOMATION - (PATCH) Partial Update Product
+22:01:56.622 INFO  AUTOMATION - Verificando el estatus code
+22:01:56.623 INFO  AUTOMATION - after: Actualizar Parcialmente un Producto, status: PASSED
