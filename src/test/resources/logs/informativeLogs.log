@@ -1,28 +1,28 @@
-23:09:26.081 INFO  AUTOMATION - before: Obtener un solo Post
-23:09:26.084 INFO  AUTOMATION - Creando Request
-23:09:26.456 INFO  AUTOMATION - Autenticacion con el request de login
-23:09:26.457 INFO  AUTOMATION - (POST) Login Request
-23:09:27.717 INFO  AUTOMATION - (GET) Get Single Post
-23:09:28.064 INFO  AUTOMATION - Verificando el estatus code
-23:09:28.067 INFO  AUTOMATION - after: Obtener un solo Post, status: PASSED
-23:09:28.074 INFO  AUTOMATION - before: Eliminar Post
-23:09:28.075 INFO  AUTOMATION - Creando Request
-23:09:28.077 INFO  AUTOMATION - Autenticacion con el request de login
-23:09:28.077 INFO  AUTOMATION - (POST) Login Request
-23:09:28.330 INFO  AUTOMATION - (DELETE) Delete Post
-23:09:28.627 INFO  AUTOMATION - Verificando el estatus code
-23:09:28.628 INFO  AUTOMATION - after: Eliminar Post, status: PASSED
-23:09:28.635 INFO  AUTOMATION - before: Actualizar Post
-23:09:28.635 INFO  AUTOMATION - Creando Request
-23:09:28.637 INFO  AUTOMATION - Autenticacion con el request de login
-23:09:28.637 INFO  AUTOMATION - (POST) Login Request
-23:09:28.960 INFO  AUTOMATION - (PUT) Update Post
-23:09:29.364 INFO  AUTOMATION - Verificando el estatus code
-23:09:29.366 INFO  AUTOMATION - after: Actualizar Post, status: PASSED
-23:09:29.374 INFO  AUTOMATION - before: Actualizar Parcialmente un Post
-23:09:29.374 INFO  AUTOMATION - Creando Request
-23:09:29.378 INFO  AUTOMATION - Autenticacion con el request de login
-23:09:29.379 INFO  AUTOMATION - (POST) Login Request
-23:09:29.626 INFO  AUTOMATION - (PATCH) Partial Update Post
-23:09:29.867 INFO  AUTOMATION - Verificando el estatus code
-23:09:29.868 INFO  AUTOMATION - after: Actualizar Parcialmente un Post, status: PASSED
+00:01:46.882 INFO  AUTOMATION - before: Obtener un solo User
+00:01:46.884 INFO  AUTOMATION - Creando Request
+00:01:47.214 INFO  AUTOMATION - Autenticacion con el request de login
+00:01:47.214 INFO  AUTOMATION - (POST) Login Request
+00:01:48.345 INFO  AUTOMATION - (GET) Get Single User
+00:01:48.590 INFO  AUTOMATION - Verificando el estatus code
+00:01:48.593 INFO  AUTOMATION - after: Obtener un solo User, status: PASSED
+00:01:48.598 INFO  AUTOMATION - before: Eliminar User
+00:01:48.598 INFO  AUTOMATION - Creando Request
+00:01:48.601 INFO  AUTOMATION - Autenticacion con el request de login
+00:01:48.601 INFO  AUTOMATION - (POST) Login Request
+00:01:48.845 INFO  AUTOMATION - (DELETE) Delete User
+00:01:49.114 INFO  AUTOMATION - Verificando el estatus code
+00:01:49.115 INFO  AUTOMATION - after: Eliminar User, status: PASSED
+00:01:49.121 INFO  AUTOMATION - before: Actualizar User
+00:01:49.121 INFO  AUTOMATION - Creando Request
+00:01:49.122 INFO  AUTOMATION - Autenticacion con el request de login
+00:01:49.122 INFO  AUTOMATION - (POST) Login Request
+00:01:49.711 INFO  AUTOMATION - (PUT) Update User
+00:01:50.165 INFO  AUTOMATION - Verificando el estatus code
+00:01:50.166 INFO  AUTOMATION - after: Actualizar User, status: PASSED
+00:01:50.171 INFO  AUTOMATION - before: Actualizar Parcialmente un User
+00:01:50.171 INFO  AUTOMATION - Creando Request
+00:01:50.174 INFO  AUTOMATION - Autenticacion con el request de login
+00:01:50.174 INFO  AUTOMATION - (POST) Login Request
+00:01:50.457 INFO  AUTOMATION - (PATCH) Partial Update User
+00:01:50.687 INFO  AUTOMATION - Verificando el estatus code
+00:01:50.688 INFO  AUTOMATION - after: Actualizar Parcialmente un User, status: PASSED

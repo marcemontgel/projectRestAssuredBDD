@@ -1,11 +1,11 @@
-23:09:26.081 INFO  AUTOMATION - before: Obtener un solo Post
-23:09:26.084 INFO  AUTOMATION - Creando Request
-23:09:26.454 DEBUG AUTOMATION - Guardar el request en el Request Provider
-23:09:26.456 INFO  AUTOMATION - Autenticacion con el request de login
-23:09:26.457 INFO  AUTOMATION - (POST) Login Request
-23:09:27.271 TRACE AUTOMATION - requestInfo body is NOT null
-23:09:27.303 TRACE AUTOMATION - requestInfo body is NOT null
-23:09:27.303 DEBUG AUTOMATION - 
+00:01:46.882 INFO  AUTOMATION - before: Obtener un solo User
+00:01:46.884 INFO  AUTOMATION - Creando Request
+00:01:47.212 DEBUG AUTOMATION - Guardar el request en el Request Provider
+00:01:47.214 INFO  AUTOMATION - Autenticacion con el request de login
+00:01:47.214 INFO  AUTOMATION - (POST) Login Request
+00:01:47.992 TRACE AUTOMATION - requestInfo body is NOT null
+00:01:48.019 TRACE AUTOMATION - requestInfo body is NOT null
+00:01:48.020 DEBUG AUTOMATION - 
 =============================================
 Request
 =============================================
@@ -20,16 +20,16 @@ src\test\resources\requestsBody.dummyjson\login.json
 =============================================
 Response
 =============================================
-Status Code: 200 	 Response Time: 592ms
+Status Code: 200 	 Response Time: 584ms
 Response Headers:
-	Date: Wed, 24 Sep 2025 04:09:27 GMT
+	Date: Wed, 24 Sep 2025 05:01:48 GMT
 	Content-Type: application/json; charset=utf-8
 	Transfer-Encoding: chunked
 	Connection: keep-alive
 	Server: cloudflare
 	x-ratelimit-limit: 100
 	x-ratelimit-remaining: 99
-	x-ratelimit-reset: 1758686971
+	x-ratelimit-reset: 1758690111
 	x-dns-prefetch-control: off
 	x-frame-options: SAMEORIGIN
 	strict-transport-security: max-age=15552000; includeSubDomains
@@ -39,19 +39,19 @@ Response Headers:
 	access-control-allow-origin: *
 	x-powered-by: Cats on Keyboards
 	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-	etag: W/"3a2-rEYUiNPti0cD6nAC4ERvsCQtCl4"
+	etag: W/"3a2-EXfC+bYeTEE0JH7c7UF+4YL6v5o"
 	vary: Accept-Encoding
 	cf-cache-status: DYNAMIC
-	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=gS5GN%2FE8XYlt8P91nXIry6hmBYVPh65g9bFxnuDcvN0OMbWPY64gXIZRTcBkwDK6rImrfkBVjVqBHfAQRsOuPrRoZXZr2jYT5s%2F7ZOM%3D"}]}
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=T8Iu%2BL4vCEeLTc0chJXtPM4mEZxzGp0%2FnMQHQ99iw37zP2PAHapO6eek%2BzhpVCYUjoGUBWkdVkgauIBJdRAqTdveSN6Vo9ei7j7%2FJzE%3D"}]}
 	Content-Encoding: gzip
-	Set-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjcsImV4cCI6MTc1ODY4OTY2N30.BgvGnJU_ITl4hQo7qlO1eX4mEOLswSYTIID_KsJ8hdI; HttpOnly; Secure; Path=/; Max-Age=2700; Expires=Wed, 24 Sep 2025 04:54:27 GMT
-	Set-Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjcsImV4cCI6MTc2MTI3ODk2N30.HSU0YAifSboFseXgoSlxo-C8CjrBR-oarDOQF-A91uw; HttpOnly; Secure; Path=/; Max-Age=2700; Expires=Wed, 24 Sep 2025 04:54:27 GMT
-	CF-RAY: 983f6d298e71b15a-MIA
+	Set-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMDgsImV4cCI6MTc1ODY5MjgwOH0.Isu9Hxv1twYrLzPGPCSgHjcw5piOuiHjx_36GRrWwyQ; HttpOnly; Secure; Path=/; Max-Age=2700; Expires=Wed, 24 Sep 2025 05:46:48 GMT
+	Set-Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMDgsImV4cCI6MTc2MTI4MjEwOH0.suGWjYrJsKqESC9jdDbykFFALHDnDiQne8MJR6kIJ08; HttpOnly; Secure; Path=/; Max-Age=2700; Expires=Wed, 24 Sep 2025 05:46:48 GMT
+	CF-RAY: 983fb9d71f0dae1e-MIA
 
 Response Body:
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjcsImV4cCI6MTc1ODY4OTY2N30.BgvGnJU_ITl4hQo7qlO1eX4mEOLswSYTIID_KsJ8hdI",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjcsImV4cCI6MTc2MTI3ODk2N30.HSU0YAifSboFseXgoSlxo-C8CjrBR-oarDOQF-A91uw",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMDgsImV4cCI6MTc1ODY5MjgwOH0.Isu9Hxv1twYrLzPGPCSgHjcw5piOuiHjx_36GRrWwyQ",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMDgsImV4cCI6MTc2MTI4MjEwOH0.suGWjYrJsKqESC9jdDbykFFALHDnDiQne8MJR6kIJ08",
     "id": 1,
     "username": "emilys",
     "email": "emily.johnson@x.dummyjson.com",
@@ -62,282 +62,35 @@ Response Body:
 }
 
 
-23:09:27.717 INFO  AUTOMATION - (GET) Get Single Post
-23:09:28.060 TRACE AUTOMATION - requestInfo body is NOT null
-23:09:28.062 TRACE AUTOMATION - requestInfo body is NOT null
-23:09:28.063 DEBUG AUTOMATION - 
+00:01:48.345 INFO  AUTOMATION - (GET) Get Single User
+00:01:48.588 TRACE AUTOMATION - requestInfo body is NOT null
+00:01:48.590 TRACE AUTOMATION - requestInfo body is NOT null
+00:01:48.590 DEBUG AUTOMATION - 
 =============================================
 Request
 =============================================
-(GET) 	 https://dummyjson.com/auth/posts/2500
+(GET) 	 https://dummyjson.com/auth/users/2500
 Request Headers:
 	Accept: */*
-	Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjcsImV4cCI6MTc1ODY4OTY2N30.BgvGnJU_ITl4hQo7qlO1eX4mEOLswSYTIID_KsJ8hdI
+	Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMDgsImV4cCI6MTc1ODY5MjgwOH0.Isu9Hxv1twYrLzPGPCSgHjcw5piOuiHjx_36GRrWwyQ
 	Content-Type: application/json
 
 Request Body:
 src\test\resources\requestsBody.dummyjson\login.json
-
-=============================================
-Response
-=============================================
-Status Code: 404 	 Response Time: 332ms
-Response Headers:
-	Date: Wed, 24 Sep 2025 04:09:28 GMT
-	Content-Type: application/json; charset=utf-8
-	Transfer-Encoding: chunked
-	Connection: keep-alive
-	Server: cloudflare
-	x-ratelimit-limit: 100
-	x-ratelimit-remaining: 99
-	x-ratelimit-reset: 1758686971
-	x-dns-prefetch-control: off
-	x-frame-options: SAMEORIGIN
-	strict-transport-security: max-age=15552000; includeSubDomains
-	x-download-options: noopen
-	x-content-type-options: nosniff
-	x-xss-protection: 1; mode=block
-	access-control-allow-origin: *
-	x-powered-by: Cats on Keyboards
-	etag: W/"2b-Fh4neAv34xEP2wl8NVvpmUBHT44"
-	vary: Accept-Encoding
-	cf-cache-status: DYNAMIC
-	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8dk%2Bow9q%2B8Qwo1eoSESwKvww1PIS9QVFWuj7XVfls2wFIWS5jKYLZo%2FFe9%2BCh3514Y2ZBbavCoc7L7oPjf%2BR9p8TJGXTIdVd3bMd"}]}
-	Content-Encoding: gzip
-	CF-RAY: 983f6d2e3b26ed30-MIA
-
-Response Body:
-{
-    "message": "Post with id '2500' not found"
-}
-
-
-23:09:28.064 INFO  AUTOMATION - Verificando el estatus code
-23:09:28.067 INFO  AUTOMATION - after: Obtener un solo Post, status: PASSED
-23:09:28.074 INFO  AUTOMATION - before: Eliminar Post
-23:09:28.075 INFO  AUTOMATION - Creando Request
-23:09:28.076 DEBUG AUTOMATION - Guardar el request en el Request Provider
-23:09:28.077 INFO  AUTOMATION - Autenticacion con el request de login
-23:09:28.077 INFO  AUTOMATION - (POST) Login Request
-23:09:28.311 TRACE AUTOMATION - requestInfo body is NOT null
-23:09:28.314 TRACE AUTOMATION - requestInfo body is NOT null
-23:09:28.315 DEBUG AUTOMATION - 
-=============================================
-Request
-=============================================
-(POST) 	 https://dummyjson.com/auth/login
-Request Headers:
-	Accept: */*
-	Content-Type: application/json
-
-Request Body:
-src\test\resources\requestsBody.dummyjson\login.json
-
-=============================================
-Response
-=============================================
-Status Code: 200 	 Response Time: 224ms
-Response Headers:
-	Date: Wed, 24 Sep 2025 04:09:28 GMT
-	Content-Type: application/json; charset=utf-8
-	Transfer-Encoding: chunked
-	Connection: keep-alive
-	Server: cloudflare
-	x-ratelimit-limit: 100
-	x-ratelimit-remaining: 98
-	x-ratelimit-reset: 1758686971
-	x-dns-prefetch-control: off
-	x-frame-options: SAMEORIGIN
-	strict-transport-security: max-age=15552000; includeSubDomains
-	x-download-options: noopen
-	x-content-type-options: nosniff
-	x-xss-protection: 1; mode=block
-	access-control-allow-origin: *
-	x-powered-by: Cats on Keyboards
-	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-	etag: W/"3a2-t463y960koFmqRJsG9DJz4hwywM"
-	vary: Accept-Encoding
-	cf-cache-status: DYNAMIC
-	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=kKUBCUzxviSP%2Ba1LfIwrFSbGAwSd9F5ZI2HmfpvyfRKVfFBkHcqTN2PxaRIK%2Bnc4FGwODRO3smIQgdthIaVRsM6A46m3y%2BbFLnuEs2I%3D"}]}
-	Content-Encoding: gzip
-	Set-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjgsImV4cCI6MTc1ODY4OTY2OH0.vsRMFKlv7YjSGFCp-m_F1RyYvk74hGcw0dMltcc45NE; HttpOnly; Secure; Path=/; Max-Age=2700; Expires=Wed, 24 Sep 2025 04:54:28 GMT
-	Set-Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjgsImV4cCI6MTc2MTI3ODk2OH0.fFlTEJPNOx2dxSJnQHUCOwgLz7_b4PezozIuUAQqyhY; HttpOnly; Secure; Path=/; Max-Age=2700; Expires=Wed, 24 Sep 2025 04:54:28 GMT
-	CF-RAY: 983f6d303d89a66b-MIA
-
-Response Body:
-{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjgsImV4cCI6MTc1ODY4OTY2OH0.vsRMFKlv7YjSGFCp-m_F1RyYvk74hGcw0dMltcc45NE",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjgsImV4cCI6MTc2MTI3ODk2OH0.fFlTEJPNOx2dxSJnQHUCOwgLz7_b4PezozIuUAQqyhY",
-    "id": 1,
-    "username": "emilys",
-    "email": "emily.johnson@x.dummyjson.com",
-    "firstName": "Emily",
-    "lastName": "Johnson",
-    "gender": "female",
-    "image": "https://dummyjson.com/icon/emilys/128"
-}
-
-
-23:09:28.330 INFO  AUTOMATION - (DELETE) Delete Post
-23:09:28.623 TRACE AUTOMATION - requestInfo body is NOT null
-23:09:28.625 TRACE AUTOMATION - requestInfo body is NOT null
-23:09:28.625 DEBUG AUTOMATION - 
-=============================================
-Request
-=============================================
-(DELETE) 	 https://dummyjson.com/auth/posts/2500
-Request Headers:
-	Accept: */*
-	Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjgsImV4cCI6MTc1ODY4OTY2OH0.vsRMFKlv7YjSGFCp-m_F1RyYvk74hGcw0dMltcc45NE
-	Content-Type: application/json
-
-Request Body:
-src\test\resources\requestsBody.dummyjson\login.json
-
-=============================================
-Response
-=============================================
-Status Code: 404 	 Response Time: 287ms
-Response Headers:
-	Date: Wed, 24 Sep 2025 04:09:28 GMT
-	Content-Type: application/json; charset=utf-8
-	Transfer-Encoding: chunked
-	Connection: keep-alive
-	Server: cloudflare
-	x-ratelimit-limit: 100
-	x-ratelimit-remaining: 98
-	x-ratelimit-reset: 1758686971
-	x-dns-prefetch-control: off
-	x-frame-options: SAMEORIGIN
-	strict-transport-security: max-age=15552000; includeSubDomains
-	x-download-options: noopen
-	x-content-type-options: nosniff
-	x-xss-protection: 1; mode=block
-	access-control-allow-origin: *
-	x-powered-by: Cats on Keyboards
-	etag: W/"2b-Fh4neAv34xEP2wl8NVvpmUBHT44"
-	vary: Accept-Encoding
-	cf-cache-status: DYNAMIC
-	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=7hd7bVpyrv%2BQsn8NRwFf863iG2nxYTcQ56s1WNym6AZ%2BF10BVu2dB%2Fa2KmyVE0KtkxWgaJYzA2MkFQc61N0NKN1tcEpeyUk0lgZw7NE%3D"}]}
-	Content-Encoding: gzip
-	CF-RAY: 983f6d31cb223a83-MIA
-
-Response Body:
-{
-    "message": "Post with id '2500' not found"
-}
-
-
-23:09:28.627 INFO  AUTOMATION - Verificando el estatus code
-23:09:28.628 INFO  AUTOMATION - after: Eliminar Post, status: PASSED
-23:09:28.635 INFO  AUTOMATION - before: Actualizar Post
-23:09:28.635 INFO  AUTOMATION - Creando Request
-23:09:28.636 DEBUG AUTOMATION - Guardar el request en el Request Provider
-23:09:28.637 INFO  AUTOMATION - Autenticacion con el request de login
-23:09:28.637 INFO  AUTOMATION - (POST) Login Request
-23:09:28.862 TRACE AUTOMATION - requestInfo body is NOT null
-23:09:28.864 TRACE AUTOMATION - requestInfo body is NOT null
-23:09:28.864 DEBUG AUTOMATION - 
-=============================================
-Request
-=============================================
-(POST) 	 https://dummyjson.com/auth/login
-Request Headers:
-	Accept: */*
-	Content-Type: application/json
-
-Request Body:
-src\test\resources\requestsBody.dummyjson\login.json
-
-=============================================
-Response
-=============================================
-Status Code: 200 	 Response Time: 221ms
-Response Headers:
-	Date: Wed, 24 Sep 2025 04:09:28 GMT
-	Content-Type: application/json; charset=utf-8
-	Transfer-Encoding: chunked
-	Connection: keep-alive
-	Server: cloudflare
-	x-ratelimit-limit: 100
-	x-ratelimit-remaining: 99
-	x-ratelimit-reset: 1758686977
-	x-dns-prefetch-control: off
-	x-frame-options: SAMEORIGIN
-	strict-transport-security: max-age=15552000; includeSubDomains
-	x-download-options: noopen
-	x-content-type-options: nosniff
-	x-xss-protection: 1; mode=block
-	access-control-allow-origin: *
-	x-powered-by: Cats on Keyboards
-	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-	etag: W/"3a2-t463y960koFmqRJsG9DJz4hwywM"
-	vary: Accept-Encoding
-	cf-cache-status: DYNAMIC
-	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IlYmxBoHLe1CtbWMpxHlcSFdr0Io5bHBT3NjylGfMTicLuF1egPWh25WnSyq4wSYYQX%2FG1F22ltRyLvDwU4jpL9SZPuya2g6CgWThDw%3D"}]}
-	Content-Encoding: gzip
-	Set-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjgsImV4cCI6MTc1ODY4OTY2OH0.vsRMFKlv7YjSGFCp-m_F1RyYvk74hGcw0dMltcc45NE; HttpOnly; Secure; Path=/; Max-Age=2700; Expires=Wed, 24 Sep 2025 04:54:28 GMT
-	Set-Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjgsImV4cCI6MTc2MTI3ODk2OH0.fFlTEJPNOx2dxSJnQHUCOwgLz7_b4PezozIuUAQqyhY; HttpOnly; Secure; Path=/; Max-Age=2700; Expires=Wed, 24 Sep 2025 04:54:28 GMT
-	CF-RAY: 983f6d33abca88da-MIA
-
-Response Body:
-{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjgsImV4cCI6MTc1ODY4OTY2OH0.vsRMFKlv7YjSGFCp-m_F1RyYvk74hGcw0dMltcc45NE",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjgsImV4cCI6MTc2MTI3ODk2OH0.fFlTEJPNOx2dxSJnQHUCOwgLz7_b4PezozIuUAQqyhY",
-    "id": 1,
-    "username": "emilys",
-    "email": "emily.johnson@x.dummyjson.com",
-    "firstName": "Emily",
-    "lastName": "Johnson",
-    "gender": "female",
-    "image": "https://dummyjson.com/icon/emilys/128"
-}
-
-
-23:09:28.960 INFO  AUTOMATION - (PUT) Update Post
-23:09:29.360 TRACE AUTOMATION - requestInfo body is NOT null
-23:09:29.362 TRACE AUTOMATION - requestInfo body is NOT null
-23:09:29.362 DEBUG AUTOMATION - 
-=============================================
-Request
-=============================================
-(PUT) 	 https://dummyjson.com/auth/post/2500
-Request Headers:
-	Accept: */*
-	Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjgsImV4cCI6MTc1ODY4OTY2OH0.vsRMFKlv7YjSGFCp-m_F1RyYvk74hGcw0dMltcc45NE
-	Content-Type: application/json
-
-Request Body:
-{
-    "title": "enim",
-    "body": "Veritatis doloremque aspernatur eos eligendi.",
-    "tags": [
-        "iure",
-        "repellat",
-        "beatae"
-    ],
-    "reactions": {
-        "likes": 2586,
-        "dislikes": 3741
-    },
-    "userId": 10
-}
 
 =============================================
 Response
 =============================================
 Status Code: 404 	 Response Time: 233ms
 Response Headers:
-	Date: Wed, 24 Sep 2025 04:09:29 GMT
+	Date: Wed, 24 Sep 2025 05:01:48 GMT
 	Content-Type: application/json; charset=utf-8
 	Transfer-Encoding: chunked
 	Connection: keep-alive
 	Server: cloudflare
 	x-ratelimit-limit: 100
 	x-ratelimit-remaining: 99
-	x-ratelimit-reset: 1758686971
+	x-ratelimit-reset: 1758690111
 	x-dns-prefetch-control: off
 	x-frame-options: SAMEORIGIN
 	strict-transport-security: max-age=15552000; includeSubDomains
@@ -346,30 +99,30 @@ Response Headers:
 	x-xss-protection: 1; mode=block
 	access-control-allow-origin: *
 	x-powered-by: Cats on Keyboards
-	etag: W/"2b-Fh4neAv34xEP2wl8NVvpmUBHT44"
+	etag: W/"2b-f97K4gKksd71xyZdOqeCKO2Hdww"
 	vary: Accept-Encoding
 	cf-cache-status: DYNAMIC
 	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=BDTyQCUKOuDdeWjBooVJI1BBcUDT98s5ftt2CWYO0JG8DxQ217ajVt%2BvF%2FK89j5BK%2BLAcstWW4t5AarDfITfe9uLga09%2F3XEIu2r%2BSw%3D"}]}
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=9%2FM6%2BFyZJPNF%2BzGP%2FWHRzeYRNoXGV%2F3gjWDZpmuf3GNBaF48Z5%2FSzLO9e3aAviaUZBngKMNb32lm%2FspmAmepeVkFSmUnqB%2FQ9wxBZEY%3D"}]}
 	Content-Encoding: gzip
-	CF-RAY: 983f6d36ba02b5bb-MIA
+	CF-RAY: 983fb9db0f36e9f0-MIA
 
 Response Body:
 {
-    "message": "Post with id '2500' not found"
+    "message": "User with id '2500' not found"
 }
 
 
-23:09:29.364 INFO  AUTOMATION - Verificando el estatus code
-23:09:29.366 INFO  AUTOMATION - after: Actualizar Post, status: PASSED
-23:09:29.374 INFO  AUTOMATION - before: Actualizar Parcialmente un Post
-23:09:29.374 INFO  AUTOMATION - Creando Request
-23:09:29.377 DEBUG AUTOMATION - Guardar el request en el Request Provider
-23:09:29.378 INFO  AUTOMATION - Autenticacion con el request de login
-23:09:29.379 INFO  AUTOMATION - (POST) Login Request
-23:09:29.609 TRACE AUTOMATION - requestInfo body is NOT null
-23:09:29.611 TRACE AUTOMATION - requestInfo body is NOT null
-23:09:29.611 DEBUG AUTOMATION - 
+00:01:48.590 INFO  AUTOMATION - Verificando el estatus code
+00:01:48.593 INFO  AUTOMATION - after: Obtener un solo User, status: PASSED
+00:01:48.598 INFO  AUTOMATION - before: Eliminar User
+00:01:48.598 INFO  AUTOMATION - Creando Request
+00:01:48.601 DEBUG AUTOMATION - Guardar el request en el Request Provider
+00:01:48.601 INFO  AUTOMATION - Autenticacion con el request de login
+00:01:48.601 INFO  AUTOMATION - (POST) Login Request
+00:01:48.828 TRACE AUTOMATION - requestInfo body is NOT null
+00:01:48.831 TRACE AUTOMATION - requestInfo body is NOT null
+00:01:48.833 DEBUG AUTOMATION - 
 =============================================
 Request
 =============================================
@@ -384,16 +137,16 @@ src\test\resources\requestsBody.dummyjson\login.json
 =============================================
 Response
 =============================================
-Status Code: 200 	 Response Time: 226ms
+Status Code: 200 	 Response Time: 223ms
 Response Headers:
-	Date: Wed, 24 Sep 2025 04:09:29 GMT
+	Date: Wed, 24 Sep 2025 05:01:48 GMT
 	Content-Type: application/json; charset=utf-8
 	Transfer-Encoding: chunked
 	Connection: keep-alive
 	Server: cloudflare
 	x-ratelimit-limit: 100
 	x-ratelimit-remaining: 99
-	x-ratelimit-reset: 1758686980
+	x-ratelimit-reset: 1758690111
 	x-dns-prefetch-control: off
 	x-frame-options: SAMEORIGIN
 	strict-transport-security: max-age=15552000; includeSubDomains
@@ -403,19 +156,19 @@ Response Headers:
 	access-control-allow-origin: *
 	x-powered-by: Cats on Keyboards
 	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-	etag: W/"3a2-NgzFWu7TRiSlinBV2BAEJXREu0w"
+	etag: W/"3a2-EXfC+bYeTEE0JH7c7UF+4YL6v5o"
 	vary: Accept-Encoding
 	cf-cache-status: DYNAMIC
-	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=VkkhCVlhHQKdCPQv3Fie%2BqLd6H9Nq57UiLRsLVkhRJwdaCJyBzz%2BTOc1nP10NzkpdWuuY6n96zt8NC5%2Fvlu%2B2gYwc4g1U5yIkidZI74%3D"}]}
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2FasQoFUaIP2%2BiZ56mZHb3UaWmCm6ApIcMLT35aOXcZdnp9hutFt152ohC%2Fli7NPN9oP0Jg0BPaX%2FwnbuCH2CEFb1Xk%2BXWbpS8f7Wez8%3D"}]}
 	Content-Encoding: gzip
-	Set-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjksImV4cCI6MTc1ODY4OTY2OX0.s-dEYwbysKNMxOWvCrQGGTxWKFdVGW__uff2aEdDbN8; HttpOnly; Secure; Path=/; Max-Age=2700; Expires=Wed, 24 Sep 2025 04:54:29 GMT
-	Set-Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjksImV4cCI6MTc2MTI3ODk2OX0.OO_EJQ7spEV9VyQ1vKP39o_z-gGVZ7zGdLyp7hr3Fng; HttpOnly; Secure; Path=/; Max-Age=2700; Expires=Wed, 24 Sep 2025 04:54:29 GMT
-	CF-RAY: 983f6d384ed17494-MIA
+	Set-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMDgsImV4cCI6MTc1ODY5MjgwOH0.Isu9Hxv1twYrLzPGPCSgHjcw5piOuiHjx_36GRrWwyQ; HttpOnly; Secure; Path=/; Max-Age=2700; Expires=Wed, 24 Sep 2025 05:46:48 GMT
+	Set-Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMDgsImV4cCI6MTc2MTI4MjEwOH0.suGWjYrJsKqESC9jdDbykFFALHDnDiQne8MJR6kIJ08; HttpOnly; Secure; Path=/; Max-Age=2700; Expires=Wed, 24 Sep 2025 05:46:48 GMT
+	CF-RAY: 983fb9dc8dbcb989-MIA
 
 Response Body:
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjksImV4cCI6MTc1ODY4OTY2OX0.s-dEYwbysKNMxOWvCrQGGTxWKFdVGW__uff2aEdDbN8",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjksImV4cCI6MTc2MTI3ODk2OX0.OO_EJQ7spEV9VyQ1vKP39o_z-gGVZ7zGdLyp7hr3Fng",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMDgsImV4cCI6MTc1ODY5MjgwOH0.Isu9Hxv1twYrLzPGPCSgHjcw5piOuiHjx_36GRrWwyQ",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMDgsImV4cCI6MTc2MTI4MjEwOH0.suGWjYrJsKqESC9jdDbykFFALHDnDiQne8MJR6kIJ08",
     "id": 1,
     "username": "emilys",
     "email": "emily.johnson@x.dummyjson.com",
@@ -426,38 +179,35 @@ Response Body:
 }
 
 
-23:09:29.626 INFO  AUTOMATION - (PATCH) Partial Update Post
-23:09:29.863 TRACE AUTOMATION - requestInfo body is NOT null
-23:09:29.865 TRACE AUTOMATION - requestInfo body is NOT null
-23:09:29.866 DEBUG AUTOMATION - 
+00:01:48.845 INFO  AUTOMATION - (DELETE) Delete User
+00:01:49.111 TRACE AUTOMATION - requestInfo body is NOT null
+00:01:49.114 TRACE AUTOMATION - requestInfo body is NOT null
+00:01:49.114 DEBUG AUTOMATION - 
 =============================================
 Request
 =============================================
-(PUT) 	 https://dummyjson.com/auth/post/2500
+(DELETE) 	 https://dummyjson.com/auth/users/2500
 Request Headers:
 	Accept: */*
-	Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2ODY5NjksImV4cCI6MTc1ODY4OTY2OX0.s-dEYwbysKNMxOWvCrQGGTxWKFdVGW__uff2aEdDbN8
+	Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMDgsImV4cCI6MTc1ODY5MjgwOH0.Isu9Hxv1twYrLzPGPCSgHjcw5piOuiHjx_36GRrWwyQ
 	Content-Type: application/json
 
 Request Body:
-{
-    "title": "vitae",
-    "body": "Ab sunt occaecati quidem ut repellat neque aspernatur aspernatur eius harum."
-}
+src\test\resources\requestsBody.dummyjson\login.json
 
 =============================================
 Response
 =============================================
-Status Code: 404 	 Response Time: 227ms
+Status Code: 404 	 Response Time: 263ms
 Response Headers:
-	Date: Wed, 24 Sep 2025 04:09:29 GMT
+	Date: Wed, 24 Sep 2025 05:01:49 GMT
 	Content-Type: application/json; charset=utf-8
 	Transfer-Encoding: chunked
 	Connection: keep-alive
 	Server: cloudflare
 	x-ratelimit-limit: 100
-	x-ratelimit-remaining: 97
-	x-ratelimit-reset: 1758686971
+	x-ratelimit-remaining: 99
+	x-ratelimit-reset: 1758690110
 	x-dns-prefetch-control: off
 	x-frame-options: SAMEORIGIN
 	strict-transport-security: max-age=15552000; includeSubDomains
@@ -466,19 +216,280 @@ Response Headers:
 	x-xss-protection: 1; mode=block
 	access-control-allow-origin: *
 	x-powered-by: Cats on Keyboards
-	etag: W/"2b-Fh4neAv34xEP2wl8NVvpmUBHT44"
+	etag: W/"2b-f97K4gKksd71xyZdOqeCKO2Hdww"
 	vary: Accept-Encoding
 	cf-cache-status: DYNAMIC
 	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IrqkUQguUyqQYEvvO4oGD8kpMWfVRVGlQ0Ei%2BinIOXRcnShdsfwMd5tP8WKGBHTF88gaV%2Fqi5bhuSYvi9fE5wxnCEChm60QjxMiP3SQ%3D"}]}
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qFUgGGsTvew%2BKH1BVu1E%2Fl7zDzuIXoxLtSg8fUeOKVpriF3TmDHeO%2BDg8nLE8K4dKPdENeZ%2BjR%2BwJAzKYgjTvc0Zod9fwWlhbBA5d%2Bw%3D"}]}
 	Content-Encoding: gzip
-	CF-RAY: 983f6d39ea7e1f08-MIA
+	CF-RAY: 983fb9de380678f6-MIA
 
 Response Body:
 {
-    "message": "Post with id '2500' not found"
+    "message": "User with id '2500' not found"
 }
 
 
-23:09:29.867 INFO  AUTOMATION - Verificando el estatus code
-23:09:29.868 INFO  AUTOMATION - after: Actualizar Parcialmente un Post, status: PASSED
+00:01:49.114 INFO  AUTOMATION - Verificando el estatus code
+00:01:49.115 INFO  AUTOMATION - after: Eliminar User, status: PASSED
+00:01:49.121 INFO  AUTOMATION - before: Actualizar User
+00:01:49.121 INFO  AUTOMATION - Creando Request
+00:01:49.122 DEBUG AUTOMATION - Guardar el request en el Request Provider
+00:01:49.122 INFO  AUTOMATION - Autenticacion con el request de login
+00:01:49.122 INFO  AUTOMATION - (POST) Login Request
+00:01:49.398 TRACE AUTOMATION - requestInfo body is NOT null
+00:01:49.401 TRACE AUTOMATION - requestInfo body is NOT null
+00:01:49.401 DEBUG AUTOMATION - 
+=============================================
+Request
+=============================================
+(POST) 	 https://dummyjson.com/auth/login
+Request Headers:
+	Accept: */*
+	Content-Type: application/json
+
+Request Body:
+src\test\resources\requestsBody.dummyjson\login.json
+
+=============================================
+Response
+=============================================
+Status Code: 200 	 Response Time: 270ms
+Response Headers:
+	Date: Wed, 24 Sep 2025 05:01:49 GMT
+	Content-Type: application/json; charset=utf-8
+	Transfer-Encoding: chunked
+	Connection: keep-alive
+	Server: cloudflare
+	x-ratelimit-limit: 100
+	x-ratelimit-remaining: 99
+	x-ratelimit-reset: 1758690117
+	x-dns-prefetch-control: off
+	x-frame-options: SAMEORIGIN
+	strict-transport-security: max-age=15552000; includeSubDomains
+	x-download-options: noopen
+	x-content-type-options: nosniff
+	x-xss-protection: 1; mode=block
+	access-control-allow-origin: *
+	x-powered-by: Cats on Keyboards
+	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+	etag: W/"3a2-dZiRJpDK1p6qurAbbr663k6c5BM"
+	vary: Accept-Encoding
+	cf-cache-status: DYNAMIC
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2FGdpF%2BTuiorQd3SPGPLTMpS%2B2A6ejPf4YPzVyoGGXfz1T3aMBmLSACuhi9xn8bMuu9hyO9Q93bBq%2Ba2m1K9f5d1ZzDRRxhBkUy5jv8o%3D"}]}
+	Content-Encoding: gzip
+	Set-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMDksImV4cCI6MTc1ODY5MjgwOX0.ms_bvZ7FG6uZseU5Y1Cj_dVg57WV-qOltBy5Fwm7U24; HttpOnly; Secure; Path=/; Max-Age=2700; Expires=Wed, 24 Sep 2025 05:46:49 GMT
+	Set-Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMDksImV4cCI6MTc2MTI4MjEwOX0.Vgyn8M23demZXEMHGqiM7LDIAdX8_J7CsNu18WZq-tA; HttpOnly; Secure; Path=/; Max-Age=2700; Expires=Wed, 24 Sep 2025 05:46:49 GMT
+	CF-RAY: 983fb9e00a01748a-MIA
+
+Response Body:
+{
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMDksImV4cCI6MTc1ODY5MjgwOX0.ms_bvZ7FG6uZseU5Y1Cj_dVg57WV-qOltBy5Fwm7U24",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMDksImV4cCI6MTc2MTI4MjEwOX0.Vgyn8M23demZXEMHGqiM7LDIAdX8_J7CsNu18WZq-tA",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+
+
+00:01:49.711 INFO  AUTOMATION - (PUT) Update User
+00:01:50.161 TRACE AUTOMATION - requestInfo body is NOT null
+00:01:50.162 TRACE AUTOMATION - requestInfo body is NOT null
+00:01:50.162 DEBUG AUTOMATION - 
+=============================================
+Request
+=============================================
+(PUT) 	 https://dummyjson.com/auth/users/2500
+Request Headers:
+	Accept: */*
+	Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMDksImV4cCI6MTc1ODY5MjgwOX0.ms_bvZ7FG6uZseU5Y1Cj_dVg57WV-qOltBy5Fwm7U24
+	Content-Type: application/json
+
+Request Body:
+{
+    "firstname": "Hollis",
+    "lastname": "Bruen",
+    "age": 31,
+    "gender": "male",
+    "email": "suzan.renner@gmail.com",
+    "phone": "(615) 245-3370",
+    "role": "Officer",
+    "address": {
+        "address": "0207 King Prairie",
+        "city": "Creminfort",
+        "state": "Michigan",
+        "country": "Lebanon",
+        "coordinates": {
+            "lat": 171.37655,
+            "lng": 46.30007
+        }
+    },
+    "company": {
+        "department": "Legislative Office",
+        "name": "Schaden-Klocko",
+        "title": "International Strategist"
+    }
+}
+
+=============================================
+Response
+=============================================
+Status Code: 404 	 Response Time: 221ms
+Response Headers:
+	Date: Wed, 24 Sep 2025 05:01:50 GMT
+	Content-Type: application/json; charset=utf-8
+	Transfer-Encoding: chunked
+	Connection: keep-alive
+	Server: cloudflare
+	x-ratelimit-limit: 100
+	x-ratelimit-remaining: 98
+	x-ratelimit-reset: 1758690111
+	x-dns-prefetch-control: off
+	x-frame-options: SAMEORIGIN
+	strict-transport-security: max-age=15552000; includeSubDomains
+	x-download-options: noopen
+	x-content-type-options: nosniff
+	x-xss-protection: 1; mode=block
+	access-control-allow-origin: *
+	x-powered-by: Cats on Keyboards
+	etag: W/"2b-f97K4gKksd71xyZdOqeCKO2Hdww"
+	vary: Accept-Encoding
+	cf-cache-status: DYNAMIC
+	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tVSCfX06LybwpXbO5BdPdWkebYbZLxyz91kGqZJhuHPJS%2BddaYQk%2Fd2j9rKE%2Fmh2ig7idL1MkFaUX%2FZPeAK4wZJeh82UFAPbtKq8oqU%3D"}]}
+	Content-Encoding: gzip
+	CF-RAY: 983fb9e4dfbaba37-MIA
+
+Response Body:
+{
+    "message": "User with id '2500' not found"
+}
+
+
+00:01:50.165 INFO  AUTOMATION - Verificando el estatus code
+00:01:50.166 INFO  AUTOMATION - after: Actualizar User, status: PASSED
+00:01:50.171 INFO  AUTOMATION - before: Actualizar Parcialmente un User
+00:01:50.171 INFO  AUTOMATION - Creando Request
+00:01:50.173 DEBUG AUTOMATION - Guardar el request en el Request Provider
+00:01:50.174 INFO  AUTOMATION - Autenticacion con el request de login
+00:01:50.174 INFO  AUTOMATION - (POST) Login Request
+00:01:50.435 TRACE AUTOMATION - requestInfo body is NOT null
+00:01:50.437 TRACE AUTOMATION - requestInfo body is NOT null
+00:01:50.437 DEBUG AUTOMATION - 
+=============================================
+Request
+=============================================
+(POST) 	 https://dummyjson.com/auth/login
+Request Headers:
+	Accept: */*
+	Content-Type: application/json
+
+Request Body:
+src\test\resources\requestsBody.dummyjson\login.json
+
+=============================================
+Response
+=============================================
+Status Code: 200 	 Response Time: 257ms
+Response Headers:
+	Date: Wed, 24 Sep 2025 05:01:50 GMT
+	Content-Type: application/json; charset=utf-8
+	Transfer-Encoding: chunked
+	Connection: keep-alive
+	Server: cloudflare
+	x-ratelimit-limit: 100
+	x-ratelimit-remaining: 99
+	x-ratelimit-reset: 1758690121
+	x-dns-prefetch-control: off
+	x-frame-options: SAMEORIGIN
+	strict-transport-security: max-age=15552000; includeSubDomains
+	x-download-options: noopen
+	x-content-type-options: nosniff
+	x-xss-protection: 1; mode=block
+	access-control-allow-origin: *
+	x-powered-by: Cats on Keyboards
+	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+	etag: W/"3a2-5m0NoO0hcLkBe9bg+19fhQujcL8"
+	vary: Accept-Encoding
+	cf-cache-status: DYNAMIC
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=MIT9Q7TG0x6ADLmEW0T7PJxlc6lzVdCD5izpnqu%2BWE02PN%2FNNeLHIMyIJLxJYfur7NZ6bS8GBs1k9lSksU7V7ekLTn9Aioxi4XU%2FbJE%3D"}]}
+	Content-Encoding: gzip
+	Set-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMTAsImV4cCI6MTc1ODY5MjgxMH0.axsGBeoCTDYWYCiTZld9bxMuLHX31ZfFHIaHkldJCCU; HttpOnly; Secure; Path=/; Max-Age=2700; Expires=Wed, 24 Sep 2025 05:46:50 GMT
+	Set-Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMTAsImV4cCI6MTc2MTI4MjExMH0.FBEoil-pcncx2dX9Y1uqNpdJawAur7HGR2xAIMEzhao; HttpOnly; Secure; Path=/; Max-Age=2700; Expires=Wed, 24 Sep 2025 05:46:50 GMT
+	CF-RAY: 983fb9e68d995cf1-MIA
+
+Response Body:
+{
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMTAsImV4cCI6MTc1ODY5MjgxMH0.axsGBeoCTDYWYCiTZld9bxMuLHX31ZfFHIaHkldJCCU",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMTAsImV4cCI6MTc2MTI4MjExMH0.FBEoil-pcncx2dX9Y1uqNpdJawAur7HGR2xAIMEzhao",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+
+
+00:01:50.457 INFO  AUTOMATION - (PATCH) Partial Update User
+00:01:50.684 TRACE AUTOMATION - requestInfo body is NOT null
+00:01:50.685 TRACE AUTOMATION - requestInfo body is NOT null
+00:01:50.685 DEBUG AUTOMATION - 
+=============================================
+Request
+=============================================
+(PATCH) 	 https://dummyjson.com/auth/users/2500
+Request Headers:
+	Accept: */*
+	Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTg2OTAxMTAsImV4cCI6MTc1ODY5MjgxMH0.axsGBeoCTDYWYCiTZld9bxMuLHX31ZfFHIaHkldJCCU
+	Content-Type: application/json
+
+Request Body:
+{
+    "firstname": "Cyrus",
+    "lastname": "Hermiston",
+    "age": 24
+}
+
+=============================================
+Response
+=============================================
+Status Code: 404 	 Response Time: 221ms
+Response Headers:
+	Date: Wed, 24 Sep 2025 05:01:50 GMT
+	Content-Type: application/json; charset=utf-8
+	Transfer-Encoding: chunked
+	Connection: keep-alive
+	Server: cloudflare
+	x-ratelimit-limit: 100
+	x-ratelimit-remaining: 99
+	x-ratelimit-reset: 1758690121
+	x-dns-prefetch-control: off
+	x-frame-options: SAMEORIGIN
+	strict-transport-security: max-age=15552000; includeSubDomains
+	x-download-options: noopen
+	x-content-type-options: nosniff
+	x-xss-protection: 1; mode=block
+	access-control-allow-origin: *
+	x-powered-by: Cats on Keyboards
+	etag: W/"2b-f97K4gKksd71xyZdOqeCKO2Hdww"
+	vary: Accept-Encoding
+	cf-cache-status: DYNAMIC
+	Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+	Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=39Xmp8g2RpFmjE5DpKSxBtGkT%2FaiWjWzvVVvxuWIygmvI1gxKuNv5qefMQQeRo85yz%2FF72gl9nWSH%2BI9TkxTsQ1xiJbbTHtxAh87KW4%3D"}]}
+	Content-Encoding: gzip
+	CF-RAY: 983fb9e828afa3df-MIA
+
+Response Body:
+{
+    "message": "User with id '2500' not found"
+}
+
+
+00:01:50.687 INFO  AUTOMATION - Verificando el estatus code
+00:01:50.688 INFO  AUTOMATION - after: Actualizar Parcialmente un User, status: PASSED
