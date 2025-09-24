@@ -1,4 +1,4 @@
-Feature: Post
+Feature: Un Happy Post
 
   Background: Autenticarse con el registro
     Given El usuario se autentica con el servidor
